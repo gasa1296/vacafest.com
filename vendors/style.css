@@ -1,0 +1,132 @@
+@font-face {
+  font-family: bebas;
+  src: url('BebasNeue/BebasNeue-Bold.ttf');
+}
+body{
+	font-family: bebas;
+}
+#presentacion, #form, #rrss, #footer{
+	display: none;
+}
+#circulo_amarillo{
+	height: 140vh;
+	width: auto;
+	display: none;
+	position: fixed;
+	top: -20vh;
+}
+#quinta_edicion{
+	width: 24vw;
+	height: auto;
+	position: fixed;
+	top: 25vh;
+	right: 38vw;
+}
+#logo{
+	width: 10vw;
+	height: auto;
+	position: fixed;
+	top: 50vh;
+	right: 45vw;
+}
+#viva_la_vaca{
+	width: 20vw;
+	height: 20vh;
+	position: fixed;
+	top: 37.5vh;
+	right: 0;
+	display: none;
+}
+
+#imagen {
+    display: none;
+    visibility: hidden;
+}
+
+.form-control{
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	border-bottom: 1px solid black;
+}
+.form-control:focus{
+	outline: none !important;
+}
+.form-control::placeholder {
+	color: black;
+	opacity: 1;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 1.3rem;
+}
+
+#nuevoIntegranteNombre::placeholder, #nuevoIntegranteTelefono::placeholder, #nuevoIntegranteCorreo::placeholder, #nuevoIntegranteRol::placeholder{
+	font-size: 1rem;
+}
+
+footer{
+	opacity: 0;
+}
+
+@media (orientation: landscape) {
+	body{
+		text-transform: uppercase;
+		overflow: hidden;
+	}
+	#form, #rrss{
+		display: none;
+	}
+	#quinta_edicion, #logo, #viva_la_vaca, #footer{
+		display: block;
+	}
+	#quinta_edicion{
+		width: 24vw;
+		height: auto;
+		position: fixed;
+		top: 25vh;
+		right: 38vw;
+	}
+	#logo{
+		width: 10vw;
+		height: auto;
+		position: fixed;
+		top: 50vh;
+		right: 45vw;
+	}
+	#viva_la_vaca{
+		width: 20vw;
+		height: 20vh;
+		position: fixed;
+		top: 37.5vh;
+		right: 0;
+		display: none;
+	}
+
+}
+
+@media (orientation: portrait) {
+	body{
+		text-transform: uppercase;
+	}
+	#circulo_amarillo{
+		top: -100vh;
+		position: absolute;
+	}
+	#quinta_edicion{
+		width: 90vw;
+		height: auto;
+		position: fixed;
+		top: 15vh;
+		right: 10vw;
+	}
+	#logo{
+		width: 50vw;
+		height: auto;
+		position: fixed;
+		top: 40vh;
+		right: 25vw;
+	}
+	#quinta_edicion, #logo, #viva_la_vaca, #footer{
+		display: none;
+	}
+
+}

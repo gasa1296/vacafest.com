@@ -1,0 +1,227 @@
+
+/* Animaciones del 5ta edicion */
+@keyframes slideBorder {
+	from {
+		-webkit-transform: translate3d(0, 0, 0) scale3d(1,1,1);
+		transform: translate3d(0, 0, 0) scale3d(1,1,1);
+	}
+
+	to {
+		-webkit-transform: translate3d(-40vw, 10vh, 0) scale3d(0.8, 0.8, 0.8);
+		transform: translate3d(-40vw, 10vh, 0) scale3d(0.8, 0.8, 0.8);
+		
+	}
+}
+
+.slideBorder {
+	-webkit-animation-name: slideBorder;
+	animation-name: slideBorder;
+}
+
+/* Animacion logo */
+@keyframes slideBorderTop {
+	from {
+		-webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+		transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+	}
+
+	to {
+		-webkit-transform: translate3d(-43vw, -50vh, 0) scale3d(0.8, 0.8, 0.8);
+		transform: translate3d(-43vw, -50vh, 0) scale3d(0.8, 0.8, 0.8);
+		
+	}
+}
+
+.slideBorderTop {
+	-webkit-animation-name: slideBorderTop;
+	animation-name: slideBorderTop;
+}
+
+/* Animaciones del Viva la Vaca */
+@keyframes slideRightToLeft {
+	from {		
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+
+	to {
+		-webkit-transform: translate3d(-80vw, 0, 0);
+		transform: translate3d(-80vw, 0, 0);
+	}
+}
+
+.slideRightToLeft {
+	-webkit-animation-name: slideRightToLeft;
+	animation-name: slideRightToLeft;
+}
+
+@keyframes slideLeftOut {
+	from {
+		-webkit-transform: translate3d(-80vw, 0, 0);
+		transform: translate3d(-80vw, 0, 0);
+	}
+
+	to {
+		-webkit-transform: translate3d(-100vw, 0, 0);
+		transform: translate3d(-100vw, 0, 0);
+	}
+}
+
+.slideLeftOut {
+	-webkit-animation-name: slideLeftOut;
+	animation-name: slideLeftOut;
+}
+@keyframes slideLeftBorderIn {
+	from {		
+		-webkit-transform: translate3d(-100vw, 0, 0);
+		transform: translate3d(-100vw, 0, 0);
+	}
+
+	to {
+		-webkit-transform: translate3d(-80vw, 0, 0);
+		transform: translate3d(-80vw, 0, 0);
+	}
+}
+
+.slideLeftBorderIn {
+	-webkit-animation-name: slideLeftBorderIn;
+	animation-name: slideLeftBorderIn;
+}
+
+/* Animaciones del Circulo */
+@keyframes slideBorderLeft {
+	from {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+
+	to {
+		-webkit-transform: translate3d(-65vw, 0, 0);
+		transform: translate3d(-65vw, 0, 0);
+		
+	}
+}
+
+.slideBorderLeft {
+	-webkit-animation-name: slideBorderLeft;
+	animation-name: slideBorderLeft;
+}
+
+@keyframes slideBorderRight {
+	from {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+
+	to {
+		-webkit-transform: translate3d(65vw, 0, 0);
+		transform: translate3d(65vw, 0, 0);
+		
+	}
+}
+
+.slideBorderRight {
+	-webkit-animation-name: slideBorderRight;
+	animation-name: slideBorderRight;
+}
+
+@keyframes slideLeftBorderToCenter {
+	from {		
+		-webkit-transform: translate3d(-65vw, 0, 0);
+		transform: translate3d(-65vw, 0, 0);
+	}
+
+	to {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+.slideLeftBorderToCenter {
+	-webkit-animation-name: slideLeftBorderToCenter;
+	animation-name: slideLeftBorderToCenter;
+}
+
+@keyframes slideRightBorderToCenter {
+	from {		
+		-webkit-transform: translate3d(65vw, 0, 0);
+		transform: translate3d(65vw, 0, 0);
+	}
+
+	to {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+.slideRightBorderToCenter {
+	-webkit-animation-name: slideRightBorderToCenter;
+	animation-name: slideRightBorderToCenter;
+}
+
+@keyframes slideRightIn {
+	from {		
+		-webkit-transform: translate3d(100vw, 0, 0);
+		transform: translate3d(100vw, 0, 0);
+	}
+
+	to {
+		-webkit-transform: translate3d(65vw, 0, 0);
+		transform: translate3d(65vw, 0, 0);
+	}
+}
+
+.slideRightIn {
+	-webkit-animation-name: slideRightIn;
+	animation-name: slideRightIn;
+}
+
+@keyframes slideLeftBorderOut {
+	from {		
+		-webkit-transform: translate3d(-65vw, 0, 0);
+		transform: translate3d(-65vw, 0, 0);
+	}
+
+	to {
+		-webkit-transform: translate3d(-100vw, 0, 0);
+		transform: translate3d(-100vw, 0, 0);
+	}
+}
+
+.slideLeftBorderOut {
+	-webkit-animation-name: slideLeftBorderOut;
+	animation-name: slideLeftBorderOut;
+}
+
+@keyframes slideRightBorderOut {
+	from {		
+		-webkit-transform: translate3d(65vw, 0, 0);
+		transform: translate3d(65vw, 0, 0);
+	}
+
+	to {
+		-webkit-transform: translate3d(100vw, 0, 0);
+		transform: translate3d(100vw, 0, 0);
+	}
+}
+
+.slideRightBorderOut {
+	-webkit-animation-name: slideRightBorderOut;
+	animation-name: slideRightBorderOut;
+}
+@keyframes slideLeftIn {
+	from {		
+		-webkit-transform: translate3d(-100vw, 0, 0);
+		transform: translate3d(-100vw, 0, 0);
+	}
+
+	to {
+		-webkit-transform: translate3d(-65vw, 0, 0);
+		transform: translate3d(-65vw, 0, 0);
+	}
+}
+
+.slideLeftIn {
+	-webkit-animation-name: slideLeftIn;
+	animation-name: slideLeftIn;
+}
